@@ -4,23 +4,45 @@
 [![Claude Skills](https://img.shields.io/badge/Claude-Skills_Ready-6B46C1.svg)](https://claude.ai)
 [![Shopify Partner](https://img.shields.io/badge/Shopify-App_Store_Optimization-95BF47.svg)](https://shopify.dev)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Security Policy](https://img.shields.io/badge/Security-Protected-success.svg)](SECURITY.md)
 
-An industry-grade **Claude Skill** that audits, writes, and optimizes Shopify App Store listings for **App Store SEO (ASO)**, **high conversion rates (CVR)**, and **"Built for Shopify" merchant trust**.
+An industry-grade **Claude Skill** that audits, writes, and optimizes Shopify App Store listings for **App Store SEO (ASO)**, **high install conversion rates (CVR)**, and **"Built for Shopify" merchant trust**.
 
-Designed for Shopify app developers, product managers, SaaS founders, and e-commerce agencies looking to scale organic app installs.
+Built on **[DM Jakaria's 10-Step Shopify ASO Roadmap](https://dm-jakaria.com/shopify-app-store-optimization/)**, official [Shopify Developer Documentation](https://shopify.dev/docs/apps/launch/shopify-app-store/best-practices), and empirical benchmarks across 400+ active Shopify apps (average listing CVR **19.34%**, top quartile **30.67%**, and elite listings **40%+**).
 
 ---
 
 ## 🌟 Why This Skill?
 
-The Shopify App Store is highly competitive. Great code alone does not guarantee installs. Top-ranking Shopify apps rely on:
-- **Zero-truncation Titles & Subtitles** optimized for Shopify's search algorithm.
-- **Outcome-driven copywriting** (P-A-S-O framework) targeting merchant ROI instead of feature dumps.
-- **Strict compliance** with Shopify Partner character limits and trademark guidelines.
-- **Narrative visual storyboards** built for mobile merchants scanning screenshots.
-- **"Built for Shopify" standards** (Polaris UI, sub-50ms speed, 2.0 Theme App Extensions).
+The Shopify App Store hosts over 13,000+ apps competing for merchant attention:
+- **~70% of all app discoveries begin with Search**: Merchants search for jobs-to-be-done (`inventory sync`, `preorder`, `volume discount`), not brand names or technical architecture.
+- **Install Velocity & 48-Hour Retention Shape Rank**: Early uninstalls (<48h) penalize search rankings. Clear listing expectations and friction-free onboarding are essential ASO levers.
+- **Visuals Drive Installs**: In an experiment by DM Jakaria on the **Essential Grid Gallery** app, simply updating the featured image drove an **+11.8% lift in organic installs and doubled paid subscriptions** in two weeks without altering code or pricing.
+- **Strict Character Limits**: Exceeding Shopify's limits causes dashboard rejections or mobile truncation.
 
-This Claude Skill acts as your dedicated in-house **Shopify ASO & Conversion Strategist**.
+This skill equips Claude to act as your full-time **Shopify ASO Strategist & Copy Chief**.
+
+---
+
+## 🗺️ DM Jakaria's 10-Step ASO Roadmap
+
+```
++-----------------------------------------------------------------------------------+
+|                  DM JAKARIA'S 10-STEP SHOPIFY ASO ROADMAP                         |
++-----------------------------------------------------------------------------------+
+  [Step 1]  App Name (30 chars) & Subtitle (62 chars) - High keyword rank weight
+  [Step 2]  App Introduction (100 chars) & Details (500 chars) - Value clarity
+  [Step 3]  Primary & Secondary Category Selection - Search placement & density
+  [Step 4]  5-Part Feature List (80 chars each) - Benefit-focused scannability
+  [Step 5]  5 Backend Search Terms - High intent, zero duplicate keywords
+  [Step 6]  Live Demo Store URL - Eliminates merchant hesitation with mock data
+  [Step 7]  Business Address & Website URL - Legitimacy & Google/AI SEO discovery
+  [Step 8]  Visual Optimization - Featured Image, Video & 4-part Story Screenshots
+  [Step 9]  Integrations ("Works With", max 6) & Support Hours - Credibility
+  [Step 10] Localized ASO & Continuous Weekly Tracking - Global scaling
+```
+
+👉 *Read the full framework breakdown in [`references/jakaria-10-step-aso-framework.md`](references/jakaria-10-step-aso-framework.md).*
 
 ---
 
@@ -29,17 +51,20 @@ This Claude Skill acts as your dedicated in-house **Shopify ASO & Conversion Str
 ```text
 ├── SKILL.md                                 # Core Claude skill definition & master instructions
 ├── references/                              # Deep technical knowledge & official rules
-│   ├── shopify-app-store-guidelines.md      # Character limits, banned claims & trademark rules
-│   ├── ranking-factors-and-seo.md           # Algorithmic weights & search ranking mechanics
+│   ├── jakaria-10-step-aso-framework.md     # Complete breakdown of DM Jakaria's 10-step methodology
+│   ├── shopify-app-store-guidelines.md      # Official character limits, banned claims & speed weights
+│   ├── ranking-factors-and-seo.md           # Algorithmic weights, install velocity & churn signals
 │   ├── built-for-shopify-criteria.md        # Speed benchmarks, Polaris UI & App Bridge guidelines
 │   └── audit-rubric-100pt.md                # 100-point diagnostic audit scoring rubric
 ├── templates/                               # Plug-and-play copywriting & asset templates
-│   ├── listing-copy-template.md             # Full listing copywriting structure with formulas
-│   ├── screenshot-storyboard-template.md    # 6-frame visual narrative storyboard
+│   ├── listing-copy-template.md             # Full listing copy blueprint with 5-part feature formulas
+│   ├── screenshot-storyboard-template.md    # Problem-Feature-Solution-Result visual storyboard
 │   └── review-reply-templates.md            # Merchant review response frameworks (5-star & 1-star)
 ├── examples/                                # Real-world demonstrations
-│   ├── before-after-case-study.md           # Concrete optimization teardown & metrics lift
+│   ├── before-after-case-study.md           # Analytics app optimization teardown (+143% CVR)
 │   └── sample-audit-report.md               # Example Claude 100-point diagnostic audit output
+├── CONTRIBUTING.md                          # Contribution guidelines & branch protection
+├── SECURITY.md                              # Security policy & safe AI usage guidelines
 ├── LICENSE                                  # MIT License
 └── README.md                                # Project documentation
 ```
@@ -49,106 +74,95 @@ This Claude Skill acts as your dedicated in-house **Shopify ASO & Conversion Str
 ## ⚡ Quick Start: How to Use with Claude
 
 ### Option A: Using with Claude.ai Projects (Recommended)
-1. Go to [Claude.ai](https://claude.ai) and open or create a **Project** (e.g., `Shopify App Marketing`).
+1. Go to [Claude.ai](https://claude.ai) and open or create a **Project** (e.g., `Shopify App Listing Optimization`).
 2. Add [`SKILL.md`](SKILL.md) and all files in [`references/`](references/) into the **Project Knowledge** section.
 3. Paste the contents of [`SKILL.md`](SKILL.md) into the **Project Custom Instructions**.
-4. Start prompting Claude!
+4. Prompt Claude using the command modes below.
 
 ### Option B: Using with Claude Code CLI
-Clone this repository into your project directory or reference it in your Claude Code workflow:
+Clone this repository to your machine or project workspace:
 ```bash
 git clone https://github.com/dm-jakaria/Shopify-App-Store-Listing-Optimization.git
 ```
-Invoke Claude Code and instruct it to load the skill:
+Run Claude Code with the skill context:
 ```bash
 claude "Read SKILL.md and audit my Shopify app listing located in ./listing-draft.md"
 ```
 
-### Option C: Using with Claude Desktop / Custom Agent
-Include [`SKILL.md`](SKILL.md) as a custom system instruction or context file in your agent configuration.
+### Option C: Download as ZIP
+Anyone can download this skill for offline or private team use:
+- Click the green **Code** button at the top of this repository and select **Download ZIP**.
 
 ---
 
-## 💬 Prompt Recipes & Command Modes
+## 💬 Command Modes & Prompt Recipes
 
-Once loaded, you can trigger specific modes using these prompt recipes:
-
-### 1. Diagnostic Audit Mode (`/audit`)
+### 1. 10-Step Diagnostic Audit Mode (`/audit`)
 ```text
-Audit my current Shopify App Store listing using your 100-point rubric:
+Audit my current Shopify App Store listing using DM Jakaria's 10-step framework and 100-point rubric:
 - Title: [Your App Title]
 - Subtitle: [Your Tagline]
-- Key Benefits: [Your Bullets]
-- Description: [Your Listing Text]
+- Introduction (100 chars): [Your Intro text]
+- Details (500 chars): [Your Description]
+- Features: [Your 5 Feature bullets]
+- Categories: [Primary & Secondary]
 - Pricing: [Your Pricing Tiers]
 ```
 
-### 2. Full Listing Generation (`/generate`)
+### 2. Full Character-Compliant Listing Generation (`/generate`)
 ```text
 Generate a high-converting, compliant Shopify App Store listing for my app:
-- App Name: BundleHero
-- Core Value: Automated bundle discounts, quantity breaks, and volume pricing
-- Target Merchant: High-volume fashion and electronics stores
-- Key Competitors: FastBundle, Kaching Bundles
-- Special Tech: 100% Theme App Blocks, sub-30ms load speed
+- App Name: ProfitGuard
+- Core Problem: Merchants losing money on hidden ad costs and negative shipping margins
+- Target Merchant: High-volume apparel and electronics stores ($200k+ GMV)
+- Integrations: Google Ads, Meta Ads, TikTok Ads, Klaviyo
+- Key Differentiators: Sub-30ms load speed, 100% Theme App Blocks, instant net profit sync
 ```
 
-### 3. ASO & Keyword Expansion (`/aso`)
+### 3. ASO & Keyword Architecture (`/aso`)
 ```text
-Perform an ASO keyword analysis for a Shopify "Order Tracking & Delivery Date" app. 
+Perform an ASO keyword analysis for a Shopify "Order Tracking & Estimated Delivery Date" app. 
 Provide:
-1. 3 Title & Subtitle variations adhering to character limits
-2. 5 high-intent keywords for the Partner Dashboard
-3. Recommended semantic keyword distribution for the description
+1. Title (<30 chars) and Subtitle (<62 chars) combinations
+2. 5 high-intent backend keywords for the Partner Dashboard
+3. 5 structured benefit bullets (<80 chars each) based on Jakaria's 5-part blueprint
 ```
 
-### 4. Screenshot Storyboarding (`/visuals`)
+### 4. Visual Storyboarding (`/visuals`)
 ```text
-Design a 6-frame screenshot storyboard for our Shopify returns and exchange management app.
-Include exact headline overlays, UI composition guidance, and mobile readability notes.
+Design a 4-frame screenshot storyboard for our Shopify returns and exchange management app following the Problem -> Feature -> Solution -> Result arc. Include exact overlay captions (20+ pt) and mobile readability checks.
 ```
 
 ---
 
-## 📏 Shopify App Store Limits Quick Reference
+## 📏 Official Character Constraints Quick Reference
 
-| Field | Limit | Key Recommendation |
+| Field | Official Limit | Key Strategy |
 | :--- | :--- | :--- |
-| **App Title** | **30 chars** (recommended)<br>50 chars (hard limit) | Keep under 30 chars to avoid mobile truncation. Formula: `[Brand]: [Core Keyword]` |
-| **App Subtitle / Tagline** | **63 chars** (STRICT) | State primary value proposition + secondary keyword. Do not repeat title words. |
-| **Key Benefits (3-5)** | Title: 30-40 chars<br>Desc: 100-140 chars | Focus on merchant ROI, time saved, and revenue boost. |
-| **Detailed Description** | ~2,800 chars max | Use Markdown headers, P-A-S-O framework, FAQs, and speed reassurances. |
-| **App Icon** | 1200 x 1200 px (1:1) | Clean vector, legible at 48x48px on mobile. No forbidden Shopify logos. |
-| **Screenshots** | 1600 x 900 px (16:9) | 5-6 slides with large contrast text overlays. |
+| **App Title** | **Max 30 chars** (hard limit) | Lead with brand name. Append exact keyword: `[Brand]: [Keyword]`. |
+| **App Card Subtitle** | **Max 62 chars** (hard limit) | Highlight outcome + secondary keyword. Complete sentence. |
+| **App Introduction** | **Max 100 chars** (hard limit) | Explains what the app does & who it helps. First text under featured image. |
+| **App Details** | **Max 500 chars** (hard limit) | Concise problem-solution overview. Judge.me style clarity. |
+| **Feature List (5 items)**| **Max 80 chars per item** | Describe functionality and merchant value, not technical code mechanics. |
+| **Backend Search Terms** | **Up to 5 terms** | Single concepts. Complete words. Zero duplicate words with title. |
+| **Integrations** | **Up to 6 tools** | Only tools you directly integrate with. Never list Shopify. |
+| **Google Title & Meta** | **60 chars / 160 chars** | Off-platform indexing on Google, ChatGPT, and Perplexity. |
 
 ---
 
-## 📊 100-Point Audit Rubric Summary
+## 🛡️ Security & Repository Integrity
 
-Claude evaluates listings across 5 pillars:
-1. **Positioning & Value Proposition** (25 pts) — Problem-solution clarity, merchant persona fit, ROI focus.
-2. **Search Visibility & ASO** (25 pts) — Title/subtitle indexing, keyword density, compliance.
-3. **Visual Assets & Storyboard** (20 pts) — Hook power, slide narrative flow, mobile annotation contrast.
-4. **Pricing Architecture** (15 pts) — Trial clarity, tier differentiation, zero hidden costs.
-5. **Social Proof & Trust Engineering** (15 pts) — Theme safety (2.0 App Blocks), speed (<50ms), support guarantees.
+This repository is publicly accessible for the benefit of the global Shopify developer community:
+- **Download & Fork**: Anyone is welcome to download, clone, or fork this repository.
+- **Protected Live Code**: Direct pushes to the `main` branch are restricted. Community improvements must be submitted via Pull Requests and undergo review before merging.
+- **No Embedded Credentials**: Contains zero API keys, secrets, or sensitive tokens.
 
-👉 *See full scoring criteria in [`references/audit-rubric-100pt.md`](references/audit-rubric-100pt.md).*
+👉 *Read the full security policy in [`SECURITY.md`](SECURITY.md).*
 
 ---
 
-## 🤝 Contributing
+## 📄 License & Community
 
-Contributions, feedback, and new templates are warmly welcome!
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/NewTemplate`)
-3. Commit your Changes (`git commit -m 'Add new B2B wholesale listing template'`)
-4. Push to the Branch (`git push origin feature/NewTemplate`)
-5. Open a Pull Request
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
----
-
-## 📄 License
-
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
-
-Developed with ❤️ by **[JAKARIA](https://github.com/dm-jakaria)** for the Shopify Developer Community.
+Developed with ❤️ by **[JAKARIA](https://dm-jakaria.com)** ([@dm-jakaria](https://github.com/dm-jakaria)) for the Shopify Partner & Developer Community.

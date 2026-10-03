@@ -1,65 +1,60 @@
 # Screenshot Storyboard & Visual Assets Template
 
-Visual assets on the Shopify App Store drive up to 60% of merchant install decisions. Merchants scan screenshots before reading the full text description.
+Visual assets on the Shopify App Store represent the single highest-leverage conversion lever. In an experiment by DM Jakaria on the **Essential Grid Gallery** app, simply updating the featured image drove an **+11.8% lift in organic installs and doubled paid subscriptions** in two weeks without touching copy or pricing.
 
 ---
 
-## 1. Specifications for Visual Assets
+## 1. Visual Asset Specifications
 
-| Asset Type | Dimensions | Aspect Ratio | Format | Recommendations |
-| :--- | :--- | :--- | :--- | :--- |
-| **App Icon** | 1200 x 1200 px | 1:1 (Square) | PNG | Clean vector logo, high contrast, recognisable at 48x48px. |
-| **Listing Screenshots** | 1600 x 900 px | 16:9 (Landscape) | PNG/JPEG | 5 to 6 slides with bold headline overlay and UI mockups. |
-| **Promotional Banner** | 1600 x 900 px | 16:9 | PNG/JPEG | Used when featured in App Store collections. Minimum text. |
+| Asset | Dimensions | Format | Key Requirement |
+| :--- | :--- | :--- | :--- |
+| **App Icon** | 1200 x 1200 px (1:1) | PNG/JPEG | Bold, recognizable at 48x48px on mobile. No text, screenshots, or Shopify logos. |
+| **Featured Image** | 1600 x 900 px (16:9) | PNG/JPEG | Single focal point. Minimum 4.5:1 contrast. Clear benefit statement. |
+| **Screenshots (3-5)** | 1600 x 900 px (16:9) | PNG/JPEG | 4-part narrative arc. Large 20+ pt mobile-legible captions. Real admin UI. |
+| **Demo Video (Optional)** | 30 - 90 seconds | Video | Real Shopify Admin screen capture, not cartoon animations. End on ROI. |
 
 ---
 
-## 2. 6-Slide High-Converting Storyboard Narrative
+## 2. The 4-Part Story Arc Narrative
+
+Merchants scan screenshots before reading text. Arrange your 3 to 5 screenshots in this validated sequence:
 
 ```
-+------------+   +------------+   +------------+   +------------+   +------------+   +------------+
-|  Slide 1   |   |  Slide 2   |   |  Slide 3   |   |  Slide 4   |   |  Slide 5   |   |  Slide 6   |
-|  The Hook  | > | 2-Min Setup| > | Core Power | > | Customizing| > | Analytics  | > | Trust & Sup|
-+------------+   +------------+   +------------+   +------------+   +------------+   +------------+
+[Frame 1: Problem]  -->  [Frame 2: Feature]  -->  [Frame 3: Solution]  -->  [Frame 4: Result]
 ```
 
-### Slide 1: The Hook (Hero Proposition)
-- **Top Headline Banner**: `Boost Average Order Value with 1-Click Upsells`
-- **Sub-headline**: `Delight shoppers with smart bundle deals right inside the cart drawer`
-- **Visual Composition**: High-resolution mockup of a modern Shopify store cart showing the sleek upsell widget with subtle glowing emphasis.
-- **Micro-Badges**: "Online Store 2.0 Ready" | "Sub-50ms Speed"
+### Frame 1: The Problem (Pain Point Agitation)
+- **Top Overlay Headline**: `Tired of Low Cart Values & Abandoned Checkouts?`
+- **Sub-headline**: `Single-item orders reduce margins and waste expensive ad spend.`
+- **Visual Composition**: Contrast comparison showing an empty/standard cart vs. the revenue potential of an upsell offer.
+- **Mobile Check**: Text readable on mobile without zooming.
 
-### Slide 2: Effortless Onboarding (Friction Killer)
-- **Top Headline Banner**: `Launch in Under 2 Minutes — No Code Required`
-- **Sub-headline**: `Add with 1 click via Shopify Theme App Blocks. Zero theme editing.`
-- **Visual Composition**: Split screen showing the Shopify Theme Editor sidebar on the left and the instant preview on the right.
+### Frame 2: The Feature (Native Setup in Seconds)
+- **Top Overlay Headline**: `Launch in Under 2 Minutes — Zero Code Required`
+- **Sub-headline**: `Add directly to your store using Online Store 2.0 Theme App Blocks.`
+- **Visual Composition**: Clean Shopify Theme Editor view showing 1-click App Block toggle.
 
-### Slide 3: The Core Superpower (Feature Showcase)
-- **Top Headline Banner**: `Automated Tiered Discounts & Quantity Breaks`
-- **Sub-headline**: `Set rules like "Buy 2 Save 10%, Buy 3 Save 20%" with custom badges`
-- **Visual Composition**: Close-up of product page variant selector displaying quantity discount tables with high-converting "Most Popular" tags.
+### Frame 3: The Solution (Core Automation in Action)
+- **Top Overlay Headline**: `Smart Quantity Breaks & Tiered Discounts`
+- **Sub-headline**: `Motivate shoppers to buy 2, 3, or more with automated tier badges.`
+- **Visual Composition**: High-converting product page mockup showcasing clean tiered discount tables that match the store's branding.
 
-### Slide 4: Customization & Brand Matching
-- **Top Headline Banner**: `Seamlessly Matches Your Store's Exact Design`
-- **Sub-headline**: `Full control over fonts, corner radius, colors, and countdown timers`
-- **Visual Composition**: Display 3 distinct theme aesthetic presets (e.g., Luxury Minimalist, Vibrant Streetwear, Clean Modern Tech).
+### Frame 4: The Result (Financial ROI & Analytics)
+- **Top Overlay Headline**: `Track Your Revenue Lift in Real Time`
+- **Sub-headline**: `See exactly how much extra GMV and AOV growth your app generates.`
+- **Visual Composition**: Native Polaris-styled admin dashboard showing revenue graph trending up with clear ROI metric cards.
 
-### Slide 5: Business Impact & Revenue Analytics
-- **Top Headline Banner**: `Track Extra Revenue & Conversion in Real Time`
-- **Sub-headline**: `Clear dashboard showing incremental GMV, AOV lift, and click rates`
-- **Visual Composition**: Clean Polaris-styled admin dashboard showing revenue graph trending upward with summary metric cards.
-
-### Slide 6: Social Proof & 24/7 Human Support
-- **Top Headline Banner**: `Loved by 1,000+ Fast-Growing Shopify Merchants`
-- **Sub-headline**: `24/7 Priority Live Chat Support with an average <5 min response time`
-- **Visual Composition**: Montage of 5-star merchant review quote bubbles, customer support chat window illustration, and partner quality badges.
+### Optional Frame 5: Social Proof & Dedicated Human Care
+- **Top Overlay Headline**: `Loved by 1,000+ Fast-Growing Merchants`
+- **Sub-headline**: `24/7 Priority Live Chat Support with <5 min average response time.`
+- **Visual Composition**: Montage of 5-star merchant review quote snippets and support team avatar badge.
 
 ---
 
-## 3. Visual Checklist Before Uploading
+## 3. Pre-Upload Visual Quality Checklist
 
-- [ ] All screenshot text is easily legible on a 5.5-inch mobile screen.
-- [ ] No tiny, unreadable 12px dashboard fonts without callout zoom magnifiers.
-- [ ] No unauthorized Shopify logos, trademarks, or fake badges.
-- [ ] Screenshots use modern Online Store 2.0 themes (e.g., Dawn, Sense, Studio).
-- [ ] Colors maintain minimum 4.5:1 contrast ratio against the background.
+- [ ] **Contrast Ratio**: Overlay text maintains at least 4.5:1 contrast against background colors.
+- [ ] **Mobile Scaled**: All banner text and captions are effortlessly readable on a 5.5-inch phone screen (20+ pt font size).
+- [ ] **No Tiny Chrome**: Browser toolbars, bookmarks, and extraneous desktop UI elements are cropped out.
+- [ ] **Modern Themes**: Storefront mockups use modern Online Store 2.0 themes (Dawn, Sense, Studio).
+- [ ] **Zero Trademark Violations**: No forbidden Shopify shopping bag logos or fake endorsement badges.

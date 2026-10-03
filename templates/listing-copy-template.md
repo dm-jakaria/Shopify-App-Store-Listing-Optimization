@@ -1,115 +1,108 @@
 # Shopify App Listing Copywriting Template
 
-Use this structured template to draft high-converting, compliant listing copy for any Shopify app.
+Use this blueprint to draft high-converting, character-compliant listing copy based on **DM Jakaria's 10-Step ASO Framework** and official Shopify Partner requirements.
 
 ---
 
-## 1. Core Header Metadata
+## 1. App Card Header & Metadata
 
-### App Title
-- **Formula**: `[Brand Name]: [Primary Exact Keyword]`
-- **Character Count Target**: Under 30 characters (no mobile truncation)
-- **Draft**: `[Brand]: [Primary Search Term]`
-- *Character Count*: `XX/30`
+### App Name
+- **Strict Limit**: Max 30 characters
+- **Formula**: `[Brand Name]: [Primary Target Keyword]`
+- **Draft**: `[Brand]: [Exact Keyword]`
+- *Character Counter*: `XX / 30 chars`
 
-### Subtitle / Tagline
-- **Formula**: `[Action Verb] + [Outcome / Benefit] with [Secondary Keyword]`
-- **Character Count Target**: Max 63 characters (STRICT)
-- **Draft**: `Boost your store conversion with automated smart upsells & BOGO`
-- *Character Count*: `XX/63`
-
----
-
-## 2. Key Benefits (3 to 5 Bullets)
-
-Each benefit must state a concrete merchant outcome rather than a technical feature.
-
-- **Benefit 1 (Primary Financial Outcome / ROI)**:
-  - **Header** (max 40 chars): `Increase Average Order Value`
-  - **Body** (100-140 chars): `Display smart quantity tiers, bundle deals, and free shipping progress bars that motivate shoppers to spend more per order.`
-
-- **Benefit 2 (Time Saved / Automation)**:
-  - **Header** (max 40 chars): `Set Up in Under 2 Minutes`
-  - **Body** (100-140 chars): `Plug and play with Online Store 2.0 app blocks. No coding, no template editing, and instant theme matching.`
-
-- **Benefit 3 (Friction Reduction / Customer Experience)**:
-  - **Header** (max 40 chars): `Ultra-Fast & Mobile-First`
-  - **Body** (100-140 chars): `Zero impact on your storefront page speed (<50ms impact). Fully optimized for iOS and Android shoppers.`
-
-- **Benefit 4 (Customization & Control)**:
-  - **Header** (max 40 chars): `Match Your Exact Brand Style`
-  - **Body** (100-140 chars): `Customize colors, typography, border radius, and animations directly inside the Shopify Theme Editor.`
+### App Card Subtitle
+- **Strict Limit**: Max 62 characters
+- **Formula**: `[Action Verb] + [Outcome] with [Secondary Keyword]`
+- **Draft**: `Boost store conversion with smart automated upsells & bundles`
+- *Character Counter*: `XX / 62 chars`
 
 ---
 
-## 3. Detailed Description (Markdown Format)
+## 2. App Introduction & Core Overview
 
-```markdown
-### Grow Your Store Revenue with [App Name]
+### App Introduction
+- **Strict Limit**: Max 100 characters
+- **Rule**: First text under featured image. Explains what the app does and who it helps in 1–2 complete sentences.
+- **Draft**: `Easily launch high-converting volume discounts and BOGO deals in minutes.`
+- *Character Counter*: `XX / 100 chars`
 
-Are you struggling with [Primary Merchant Pain Point]? Most merchants lose [X]% of potential revenue because [Root Cause of the Problem].
-
-**[App Name]** solves this by [Core Solution Statement]. Easily launch [Main Feature] in minutes—no developer required.
-
----
-
-### Why Merchants Choose [App Name]
-
-- **[Feature 1 Benefit]:** [Concise 1-2 sentence explanation of feature and merchant win]
-- **[Feature 2 Benefit]:** [Concise 1-2 sentence explanation of feature and merchant win]
-- **[Feature 3 Benefit]:** [Concise 1-2 sentence explanation of feature and merchant win]
-- **[Feature 4 Benefit]:** [Concise 1-2 sentence explanation of feature and merchant win]
+### App Details (Overview)
+- **Strict Limit**: Max 500 characters
+- **Rule**: Problem-solution overview. Direct, merchant-focused, no generic fluff.
+- **Draft**:
+> Most store owners lose 20-30% in potential average order value because standard checkouts offer zero motivation to add more items. [App Name] solves this with automated, one-click tiered discounts and gift progress bars that integrate natively into your Online Store 2.0 theme. With zero code editing and sub-50ms load speed, you can launch custom promotional campaigns today and watch your cart size grow immediately.
+- *Character Counter*: `XX / 500 chars`
 
 ---
 
-### Built Seamlessly for Shopify
+## 3. The 5-Part Structured Feature List (Max 80 Chars Each)
 
-- **Online Store 2.0 Ready:** Installs cleanly via App Blocks with zero lingering liquid code if uninstalled.
-- **Blazing Fast Performance:** Lightweight architecture designed to keep your Core Web Vitals green.
-- **Dedicated Human Support:** 24/7 priority live chat and email support whenever you need assistance.
+Based on DM Jakaria's 5-part feature framework:
 
----
+1. **Feature 1: Main Benefit (Core Problem Solved)**
+   - *Draft*: `Increase Average Order Value with tiered quantity discounts and bundles`
+   - *Character Counter*: `XX / 80 chars`
 
-### Frequently Asked Questions
+2. **Feature 2: Key Function (Automated Functionality)**
+   - *Draft*: `Automatically applies volume discounts and free gifts at checkout`
+   - *Character Counter*: `XX / 80 chars`
 
-**Q: Does this app work with my existing theme?**  
-A: Yes! [App Name] supports all Online Store 2.0 and vintage Shopify themes out of the box.
+3. **Feature 3: Workflow Improvement (Ease of Setup & Speed)**
+   - *Draft*: `Set up in under 2 minutes with native Online Store 2.0 App Blocks`
+   - *Character Counter*: `XX / 80 chars`
 
-**Q: Will this slow down my store's load time?**  
-A: No. Our app scripts are loaded asynchronously with less than 50ms storefront impact.
+4. **Feature 4: Merchant Result (Business Impact)**
+   - *Draft*: `Track incremental GMV, AOV lift, and click rates in real time`
+   - *Character Counter*: `XX / 80 chars`
 
-**Q: Can I customize the design to match my brand?**  
-A: Absolutely. You can adjust colors, fonts, margins, and layouts using the native Shopify theme customizer.
-```
-
----
-
-## 4. Search Keyword Bank (Partner Dashboard 5 Keywords)
-
-1. `[Primary Keyword]`
-2. `[Secondary Keyword Phrase]`
-3. `[Alternative Niche Term]`
-4. `[Competitor Alternative / Solution Term]`
-5. `[Problem-based Search Phrase]`
+5. **Feature 5: Bonus / Differentiator (Design & Support)**
+   - *Draft*: `100% theme style matching with 24/7 dedicated live chat support`
+   - *Character Counter*: `XX / 80 chars`
 
 ---
 
-## 5. Pricing Plan Card Copy
+## 4. Search Keywords (Partner Dashboard Backend)
 
-### Tier 1: Free / Basic Plan
-- **Plan Name**: `Starter / Free`
-- **Price**: `$0 / month` (or `Free trial: 14 days`)
-- **Key Inclusions**:
-  - Up to [X] orders / month
-  - Core features access
-  - Email support
-  - 100% theme block compatibility
+Enter up to 5 terms (single concepts, complete words, no repetition of App Name):
+1. `[Primary Keyword Phrase]`
+2. `[Secondary Niche Term]`
+3. `[Alternative Merchant Search Term]`
+4. `[Problem-based Query]`
+5. `[Competitor Alternative Keyword]`
 
-### Tier 2: Growth / Pro Plan (Most Popular)
-- **Plan Name**: `Growth / Pro`
-- **Price**: `$XX / month`
-- **Key Inclusions**:
-  - Unlimited orders & campaigns
-  - Advanced customization & analytics
-  - Priority 24/7 live chat support
-  - Custom CSS styling
+---
+
+## 5. Integrations ("Works With" - Max 6)
+
+List up to 6 tools or platforms you directly integrate with (do not list Shopify):
+1. `Klaviyo`
+2. `Shopify POS`
+3. `Recharge`
+4. `PageFly`
+5. `Gorgias`
+6. `Google Analytics 4`
+
+---
+
+## 6. Off-Page Google SEO & AI Discovery
+
+### Google Title Tag
+- **Target**: 55 - 60 characters
+- **Draft**: `[Brand Name] - [Primary Keyword] for Shopify Stores`
+
+### Google Meta Description
+- **Target**: 150 - 160 characters
+- **Draft**: `Grow your store's average order value with [Brand Name]. Launch automated volume discounts and smart upsells in 2 minutes. Free 14-day trial.`
+
+---
+
+## 7. Pricing Architecture & Transparency
+
+- **Primary Billing Method**: Recurring charge (with Free plan available badge)
+- **Free Trial**: Recommended 14 days
+- **Plan 1: Free Tier** (`$0/mo` — up to 50 monthly orders)
+- **Plan 2: Growth Tier** (`$19/mo` — unlimited orders, custom CSS)
+- **Plan 3: Pro / Plus Tier** (`$49/mo` — priority 24/7 support, dedicated strategist)
+- **Transparency Statement**: `All plans include 14-day free trial. Zero hidden fees or transaction percentages.`
