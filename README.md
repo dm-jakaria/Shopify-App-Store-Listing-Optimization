@@ -1,4 +1,4 @@
-# 🚀 Shopify App Listing Optimization Skill for Claude
+# Shopify App Listing Optimization Skill for Claude
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Skills](https://img.shields.io/badge/Claude-Skills_Ready-6B46C1.svg)](https://claude.ai)
@@ -12,7 +12,7 @@ Built on **[DM Jakaria's 10-Step Shopify ASO Roadmap](https://dm-jakaria.com/sho
 
 ---
 
-## 🌟 Why This Skill?
+## Why This Skill?
 
 The Shopify App Store hosts over 13,000+ apps competing for merchant attention:
 - **~70% of all app discoveries begin with Search**: Merchants search for jobs-to-be-done (`inventory sync`, `preorder`, `volume discount`), not brand names or technical architecture.
@@ -24,7 +24,7 @@ This skill equips Claude to act as your full-time **Shopify ASO Strategist & Cop
 
 ---
 
-## 🗺️ DM Jakaria's 10-Step ASO Roadmap
+## DM Jakaria's 10-Step ASO Roadmap
 
 ```
 +-----------------------------------------------------------------------------------+
@@ -42,7 +42,7 @@ This skill equips Claude to act as your full-time **Shopify ASO Strategist & Cop
   [Step 10] Localized ASO & Continuous Weekly Tracking - Global scaling
 ```
 
-👉 *Read the full framework breakdown in [`references/jakaria-10-step-aso-framework.md`](references/jakaria-10-step-aso-framework.md).*
+*Read the full framework breakdown in [`references/jakaria-10-step-aso-framework.md`](references/jakaria-10-step-aso-framework.md).*
 
 ---
 
@@ -71,7 +71,7 @@ This skill equips Claude to act as your full-time **Shopify ASO Strategist & Cop
 
 ---
 
-## ⚡ Quick Start: How to Use with Claude
+## Quick Start: How to Use with Claude
 
 ### Option A: Using with Claude.ai Projects (Recommended)
 1. Go to [Claude.ai](https://claude.ai) and open or create a **Project** (e.g., `Shopify App Listing Optimization`).
@@ -95,7 +95,7 @@ Anyone can download this skill for offline or private team use:
 
 ---
 
-## 💬 Command Modes & Prompt Recipes
+## Command Modes & Prompt Recipes
 
 ### 1. 10-Step Diagnostic Audit Mode (`/audit`)
 ```text
@@ -135,7 +135,7 @@ Design a 4-frame screenshot storyboard for our Shopify returns and exchange mana
 
 ---
 
-## 📏 Official Character Constraints Quick Reference
+## Official Character Constraints Quick Reference
 
 | Field | Official Limit | Key Strategy |
 | :--- | :--- | :--- |
@@ -150,18 +150,18 @@ Design a 4-frame screenshot storyboard for our Shopify returns and exchange mana
 
 ---
 
-## 🛡️ Security & Repository Integrity
+## Security & Repository Integrity
 
 This repository is publicly accessible for the benefit of the global Shopify developer community:
 - **Download & Fork**: Anyone is welcome to download, clone, or fork this repository.
 - **Protected Live Code**: Direct pushes to the `main` branch are restricted. Community improvements must be submitted via Pull Requests and undergo review before merging.
 - **No Embedded Credentials**: Contains zero API keys, secrets, or sensitive tokens.
 
-👉 *Read the full security policy in [`SECURITY.md`](SECURITY.md).*
+*Read the full security policy in [`SECURITY.md`](SECURITY.md).*
 
 ---
 
-## 📄 License & Community
+## License & Community
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
