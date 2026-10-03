@@ -57,7 +57,7 @@ This Claude Skill acts as your dedicated in-house **Shopify ASO & Conversion Str
 ### Option B: Using with Claude Code CLI
 Clone this repository into your project directory or reference it in your Claude Code workflow:
 ```bash
-git clone https://github.com/YOUR_USERNAME/shopify-app-listing-optimization.git
+git clone https://github.com/dm-jakaria/Shopify-App-Store-Listing-Optimization.git
 ```
 Invoke Claude Code and instruct it to load the skill:
 ```bash
@@ -151,4 +151,4 @@ Contributions, feedback, and new templates are warmly welcome!
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
 
-Developed with ❤️ by **[JAKARIA](https://github.com/JAKARIA)** for the Shopify Developer Community.
+Developed with ❤️ by **[JAKARIA](https://github.com/dm-jakaria)** for the Shopify Developer Community.
